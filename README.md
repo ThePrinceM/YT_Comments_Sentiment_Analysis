@@ -12,16 +12,6 @@
   <strong>An NLP-powered pipeline that fetches, processes, and visualizes YouTube comments <br/> using spaCy POS tagging, TextBlob sentiment analysis, and scikit-learn ML classification.</strong>
 </p>
 
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-project-structure">Structure</a> •
-  <a href="#-dashboard-tabs">Dashboard</a> •
-  <a href="#-nlp-pipeline">Pipeline</a> •
-  <a href="#-acknowledgements">Credits</a>
-</p>
-
 ---
 
 ## ✨ Features
@@ -106,8 +96,6 @@ The app will open at **http://localhost:8501** 🎉
 YT_Comments_Sentiment_Analysis/
 │
 ├── dashboard.py          # 🖥️  Streamlit dashboard (main app)
-├── analyzer.ipynb        # 📓  Jupyter notebook (original pipeline)
-├── comment-analyzer.py   # 🐍  Standalone comment fetcher script
 ├── .env                  # 🔑  YouTube API key (git-ignored)
 ├── .gitignore            # 🚫  Git ignore rules
 └── README.md             # 📖  This file
@@ -228,12 +216,6 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgements
 
 - [spaCy](https://spacy.io/) — Industrial-strength NLP
@@ -245,5 +227,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">
-  Made with ❤️ for NLP TA1 Project — 6th Semester
+  Authored and Published by *Prince Maurya*
 </p>
