@@ -1,7 +1,7 @@
 streamlit
 pandas
-numpy
-spacy
+numpy<2.0.0
+spacy>=3.7.0
 plotly
 textblob
 google-api-python-client
