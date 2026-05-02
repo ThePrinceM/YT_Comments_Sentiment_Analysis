@@ -872,7 +872,7 @@ else:
     st.markdown("""
     <div style="text-align: center; padding: 4rem 2rem;">
         <div style="font-size: 4rem; margin-bottom: 1rem;">🎬</div>
-        <h2 style="color: #9ca3af; font-weight: 400;">Enter a YouTube URL and API key to begin analysis</h2>
+        <h2 style="color: #9ca3af; font-weight: 400;">Enter a YouTube URL to begin analysis</h2>
         <p style="color: #6b7280; max-width: 500px; margin: 0 auto;">
             This tool fetches YouTube comments, performs NLP analysis using spaCy for POS tagging
             and TextBlob for sentiment analysis, then trains a machine learning classifier.
